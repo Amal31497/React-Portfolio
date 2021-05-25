@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+#main{
+  background-color: #e4e4e4;
+  padding-left:10rem;
+  padding-right:10rem;
+  margin-bottom:0rem;
+}
+
+
+#navbar{
+  background-color: #222222 !important;
+}
+
+#footer{
+  background-color: #222222 !important;
+  color:white !important;
+  height:8rem !important;
+}
+
+.portrait{
+  margin-bottom:2.5rem;
+  height:19.5rem;
+  width:16.5rem;
+}
+
+#fse{
+  color:white;
+  font-weight:500;
+}
+
+#myStory{
+  line-height: 1.95rem;
+}
+
+.link{
+  padding:1rem;
+}
+
+.links{
+  display:flex;
+  justify-content: center;
+}
+
+#AJ{
+  justify-content: center;
+}
