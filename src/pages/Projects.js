@@ -24,8 +24,8 @@ function Projects() {
                             <Card.Text style={{ lineHeight: '2rem' }}>
                                 This application is designed to create an easy way to navigate one's employees information. Using random user API, this app displays random users with specific personal non-sensitive information. A user can filter and sort users by name and location.
                             </Card.Text>
-                            <Button variant="primary" style={{ marginLeft: '3rem' }}>Application</Button>
-                            <Button variant="primary" style={{ marginLeft: '3rem' }}>Repository</Button>
+                            <Button variant="primary" style={{ marginLeft: '3rem' }} href="https://quiet-beach-68881.herokuapp.com/" target="blank">Application</Button>
+                            <Button variant="primary" style={{ marginLeft: '3rem' }} href="https://github.com/Amal31497/Employee-Directory-React" target="blank">Repository</Button>
                         </Card.Body>
                     </Card>
                 </CarouselItem>
@@ -37,8 +37,8 @@ function Projects() {
                             <Card.Text style={{ lineHeight: '2rem', marginBottom: '2.42rem' }}>
                                 Lost No More is an application designed for avid travellers. Users can view weather as well as information about popular spots in a particular city. Users do not need to register.
                             </Card.Text>
-                            <Button variant="primary" style={{ marginLeft: '3rem' }}>Application</Button>
-                            <Button variant="primary" style={{ marginLeft: '3rem' }}>Repository</Button>
+                            <Button variant="primary" style={{ marginLeft: '3rem' }} href="https://obrienceob.github.io/LostNoMore/" target="blank">Application</Button>
+                            <Button variant="primary" style={{ marginLeft: '3rem' }} href="https://github.com/obrienceob/LostNoMore" target="blank">Repository</Button>
                         </Card.Body>
                     </Card>
                 </CarouselItem>
@@ -50,8 +50,8 @@ function Projects() {
                             <Card.Text style={{ lineHeight: '2rem' }}>
                                 Inspired by good food and quarantine lifestyle, Your Neighbor Chef is designed for users to find local chefs in their neighborhoods and order food from them.
                             </Card.Text>
-                            <Button variant="primary" style={{ marginLeft: '3rem' }}>Application</Button>
-                            <Button variant="primary" style={{ marginLeft: '3rem' }}>Repository</Button>
+                            <Button variant="primary" style={{ marginLeft: '3rem' }} href="https://boiling-mesa-93312.herokuapp.com/" target="blank">Application</Button>
+                            <Button variant="primary" style={{ marginLeft: '3rem' }} href="https://github.com/Amal31497/Your-Neighbor-Chef" target="blank">Repository</Button>
                         </Card.Body>
                     </Card>
                 </CarouselItem>
@@ -63,8 +63,8 @@ function Projects() {
                             <Card.Text style={{ lineHeight: '2rem' }}>
                                 With this app user can share their thoughts in a form of a blog. The application allows user to post update and deleter their own posts. Each user had to sign up before posting however can view other posts without having an account. Likewise, registered users may post comments under posts and then deleter them if necessary.
                             </Card.Text>
-                            <Button variant="primary" style={{ marginLeft: '3rem' }}>Application</Button>
-                            <Button variant="primary" style={{ marginLeft: '3rem' }}>Repository</Button>
+                            <Button variant="primary" style={{ marginLeft: '3rem' }} href="https://limitless-reaches-70428.herokuapp.com/" target="blank">Application</Button>
+                            <Button variant="primary" style={{ marginLeft: '3rem' }} href="https://github.com/Amal31497/tech-blog" target="blank">Repository</Button>
                         </Card.Body>
                     </Card>
                 </CarouselItem>
