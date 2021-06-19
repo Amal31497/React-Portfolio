@@ -79,7 +79,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 <div style={{ position: "absolute", right: "170px" }}>
-                    <Button variant="outline-light" href="#two" target="blank" style={{ width: "50px", height: "50px" }}><VscChevronDown /></Button>
+                    <Button variant="outline-light" href="#two" style={{ width: "50px", height: "50px" }}><VscChevronDown /></Button>
                 </div>
             </section>
             <section className="project" id="two">
@@ -151,7 +151,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 <div style={{ position: "absolute", right: "170px" }}>
-                    <Button variant="outline-light" href="#three" target="blank" style={{ width: "50px", height: "50px" }}><VscChevronDown /></Button>
+                    <Button variant="outline-light" href="#three" style={{ width: "50px", height: "50px" }}><VscChevronDown /></Button>
                 </div>
             </section>
             <section className="project" id="three">
@@ -223,7 +223,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 <div style={{ position: "absolute", bottom: "60px", left: "auto", right: "auto" }}>
-                    <Button variant="outline-light" href="#one" target="blank" style={{ width: "200px" }}><VscChevronUp /></Button>
+                    <Button variant="outline-light" href="#one" style={{ width: "200px" }}><VscChevronUp /></Button>
                 </div>
             </section>
         </div>
