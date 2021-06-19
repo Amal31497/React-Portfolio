@@ -6,7 +6,7 @@ import pic from '../assets/portrait.png'
 
 function Home() {
     return (
-        <div className="jumbotron" id="main">
+        <div  id="main">
             <Row>
                 <Col className="left">
                     <Image src={pic} className="portrait" alt="Portrait" />

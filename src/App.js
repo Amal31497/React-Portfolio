@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav />
+        <Nav id="navbar"/>
         <Route exact path="/" component={Home}></Route>
         <Route exact path="/contact" component={Contact}></Route>
         <Route exact path="/projects" component={Projects}></Route>

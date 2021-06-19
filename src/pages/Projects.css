@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.cont{
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    height:100vh;
+}
+
+.project{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: end;
+}
+
+#one{
+    background: #353535 !important;
+    position: relative;
+}
+#two{
+    background: #3c6e71 !important;
+    color: black;
+    position: relative;
+}
+#three{
+    background: #284b63 !important;
+    position: relative;
+}
