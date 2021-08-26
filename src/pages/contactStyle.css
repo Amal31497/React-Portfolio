@@ -1,0 +1,10 @@
+.mainContacts{
+    height:70vh;
+    display:block;
+    padding-top:200px;
+}
+
+.contactsElement{
+    display:flex;
+    justify-content: center;
+}
