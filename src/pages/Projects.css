@@ -32,3 +32,11 @@
     background: #284b63 !important;
     position: relative;
 }
+
+.githubButtonSingle{
+    width:100% !important;
+}
+
+.projectLink{
+    width:40% !important;
+}
