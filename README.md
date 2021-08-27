@@ -17,7 +17,12 @@ This portfolio is a brief introduction into my professional life. I am an aspiri
 ## Credits:
   [w3schools.com](w3schools.com)
   [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
-  []()
+
+## Screenshots:
+  ![Main page](./assets/screenshot-1.png)
+  ![Projects page](./assets/screenshot-2.png)
+  ![Contacts page](./assets/screenshot-3.png)
+
 
 ## Links:
 [Github repo](https://github.com/Amal31497/React-Portfolio)
