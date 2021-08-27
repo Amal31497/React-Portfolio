@@ -9,7 +9,7 @@ import "./Projects.css"
 import { VscChevronUp } from "react-icons/vsc";
 import { VscChevronDown } from "react-icons/vsc";
 import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
-import { SiJavascript, SiMysql, SiMongodb, SiExpo, SiGoogle } from 'react-icons/si';
+import { SiMongodb, SiExpo, SiGoogle } from 'react-icons/si';
 
 function Projects() {
     return (

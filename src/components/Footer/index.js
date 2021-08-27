@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import { IoLogoInstagram } from "react-icons/io5";
-import { GrFacebook } from "react-icons/gr";
 import { GrLinkedin } from "react-icons/gr";
 import { IoLogoGithub } from "react-icons/io5";
 

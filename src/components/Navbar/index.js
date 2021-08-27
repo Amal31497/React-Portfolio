@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, NavbarBrand, Nav } from 'react-bootstrap';
-import resume from '../../assets/AmalJanabayevResume.pdf'
+import resume from '../../assets/AmalJanabayevResume.pdf';
 
 
 function Navigation() {

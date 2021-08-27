@@ -1,7 +1,6 @@
 import React from 'react';
-import Typed from 'react-typed'
-import { Image, Col, Row, Button } from 'react-bootstrap'
-import pic from '../assets/portrait.png'
+import { Image, Row, Button } from 'react-bootstrap';
+import pic from '../assets/portrait.png';
 import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
 import { SiJavascript, SiMysql, SiMongodb, SiHtml5, SiCss3, SiCsharp } from 'react-icons/si';
 import { DiDotnet } from 'react-icons/di';
