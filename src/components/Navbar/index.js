@@ -13,7 +13,7 @@ function Navigation() {
             </Nav>
             <Nav className="ml-auto">
                 <Nav.Link href={resume} download>Resume</Nav.Link>
-                <Nav.Link disabled id="fse">Full Stack Engineer</Nav.Link>
+                <Nav.Link disabled id="fse">Full Stack Web Developer</Nav.Link>
             </Nav>
         </Navbar>
     )
