@@ -20,16 +20,21 @@
 }
 
 #one{
-    background: #353535 !important;
+    background: #2c3531 !important;
     position: relative;
 }
 #two{
-    background: #3c6e71 !important;
+    background: #116466 !important;
     color: black;
     position: relative;
 }
 #three{
-    background: #284b63 !important;
+    background: #d9b08c !important;
+    position: relative;
+}
+
+#four{
+    background: #d1e8e2 !important;
     position: relative;
 }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { Particles } from "react-particles-js"
 import MMGMA from '../assets/mobileAppGif.gif';
+import TB from '../assets/techBlog.png';
 import YNC from '../assets/phoneOutline.png';
 import GBS from '../assets/googleBooks.png'
 import MMG from '../assets/myMiniGallery.png'
@@ -9,11 +10,12 @@ import "./Projects.css"
 import { VscChevronUp } from "react-icons/vsc";
 import { VscChevronDown } from "react-icons/vsc";
 import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
-import { SiMongodb, SiExpo, SiGoogle } from 'react-icons/si';
+import { SiMongodb, SiExpo, SiGoogle, SiMysql, SiJavascript } from 'react-icons/si';
 
 function Projects() {
     return (
         <div className="cont">
+
             <section className="project" id="one">
                 <div style={{ position: "absolute", bottom: "2rem", width: "100%", height: "100%" }}>
                     <Particles
@@ -77,7 +79,7 @@ function Projects() {
                         <Card.Title>
                             My Mini Gallery
                         </Card.Title>
-                        <div style={{display:"flex", justifyContent:"space-between"}}>
+                        <div style={{ display: "flex", justifyContent: "space-between" }}>
                             <h5>{"{"}</h5>
                             <p style={{ color: "blue" }}>React : <FaReact size={14} /> , </p>
                             <p style={{ color: "green" }}>Node.js : <FaNodeJs size={14} /> , </p>
@@ -98,6 +100,7 @@ function Projects() {
                     <Button variant="outline-light" href="#two" style={{ width: "50px", height: "50px" }}><VscChevronDown /></Button>
                 </div>
             </section>
+
             <section className="project" id="two">
                 <div style={{ position: "absolute", bottom: "2rem", width: "100%", height: "100%" }}>
                     <Particles
@@ -184,8 +187,9 @@ function Projects() {
                     <Button variant="outline-light" href="#three" style={{ width: "50px", height: "50px" }}><VscChevronDown /></Button>
                 </div>
             </section>
+
             <section className="project" id="three">
-            <div style={{ position: "absolute", bottom: "2rem", width: "100%", height: "100%" }}>
+                <div style={{ position: "absolute", bottom: "2rem", width: "100%", height: "100%" }}>
                     <Particles
                         params={{
                             particles: {
@@ -256,9 +260,92 @@ function Projects() {
                         <Card.Text>
                             Full Stack React application that allows user to search for their favorite books and save them to favorites.
                         </Card.Text>
-                        <div style={{display:"flex", justifyContent:"space-evenly"}}>
+                        <div style={{ display: "flex", justifyContent: "space-evenly" }}>
                             <Button className="projectLink" variant="outline-dark" href="https://guarded-castle-60005.herokuapp.com/" target="blank">Application</Button>
                             <Button className="projectLink" variant="outline-primary" href="https://github.com/Amal31497/Google-Books-Search" target="blank">Repository</Button>
+                        </div>
+                    </Card.Body>
+                </Card>
+                <div style={{ position: "absolute", right: "170px" }}>
+                    <Button variant="outline-light" href="#three" style={{ width: "50px", height: "50px" }}><VscChevronDown /></Button>
+                </div>
+            </section>
+
+            <section className="project" id="four">
+                <div style={{ position: "absolute", bottom: "2rem", width: "100%", height: "100%" }}>
+                    <Particles
+                        params={{
+                            particles: {
+                                number: {
+                                    value: 500,
+                                    density: {
+                                        enable: true,
+                                        value_area: 850
+                                    }
+                                },
+                                opacity: {
+                                    value: 1,
+                                    random: true,
+                                    anim: {
+                                        encable: true,
+                                        speed: 0.6,
+                                        opacity_min: 0,
+                                        sync: true
+                                    }
+                                },
+                                size: {
+                                    value: 1.5,
+                                    random: true,
+                                    anim: {
+                                        encable: true,
+                                        speed: 2,
+                                        opacity_min: 5,
+                                        sync: false
+                                    }
+                                },
+                                line_linked: {
+                                    enable: false,
+                                    distance: 150,
+                                    opacity: 0.4,
+                                    width: 1
+                                },
+                                color: "#726A95",
+                                move: {
+                                    enable: true,
+                                    speed: 5.5,
+                                    direction: "right",
+                                    random: true,
+                                    straight: false,
+                                    out_mode: "out",
+                                    bounce: false,
+                                    attract: {
+                                        enable: false,
+                                        rotateX: 600,
+                                        rotateY: 1200
+                                    }
+                                }
+                            }
+                        }}
+                    />
+                </div>
+                <Card style={{ width: '36rem' }}>
+                    <Card.Img variant="bottom" src={TB} />
+                    <Card.Body>
+                        <Card.Title>Tech Blog</Card.Title>
+                        <div style={{ display: "flex", justifyContent: "space-between" }}>
+                            <h5>{"{"}</h5>
+                            <p style={{ color: "green" }}>Node.js : <SiJavascript size={18} />,</p>
+                            <p style={{ color: "green" }}>Node.js : <FaNodeJs size={14} />,</p>
+                            <p style={{ color: "green" }}>MySQL : <SiMysql size={14} /></p>
+                            <h5>{"}"}</h5>
+                        </div>
+                        <Card.Text>
+                            Full Stack Web application built with MVC framework in Vanilla JS, Node.js, MySQL and Handlebars(Mustache Extension).
+                            This application allows users to share their thoughts and write blogs about them. Users can likewise comment and update their posts.
+                        </Card.Text>
+                        <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+                            <Button className="projectLink" variant="outline-dark" href="https://limitless-reaches-70428.herokuapp.com/" target="blank">Application</Button>
+                            <Button className="projectLink" variant="outline-primary" href="https://github.com/Amal31497/tech-blog" target="blank">Repository</Button>
                         </div>
                     </Card.Body>
                 </Card>
