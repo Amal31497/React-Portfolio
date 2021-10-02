@@ -8,7 +8,7 @@ function Footer() {
 
     return (
         <footer className="mt-auto text-black-100 footer" id="footer">
-            <div className="links">
+            <div className="linksFooter">
                 <div className="link" ><a target="_blank" rel="noreferrer" href="https://www.instagram.com/amamamdj/"><IoLogoInstagram /></a></div>
                 <div className="link" ><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amaljanabayev/"><GrLinkedin /></a></div>
                 <div className="link" ><a target="_blank" rel="noreferrer" href="https://github.com/Amal31497"><IoLogoGithub /></a></div>

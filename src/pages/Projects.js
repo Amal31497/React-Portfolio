@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useEffect, useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { Particles } from "react-particles-js"
 import MMGMA from '../assets/mobileAppGif.gif';
@@ -18,12 +18,10 @@ import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
 import { SiMongodb, SiExpo, SiGoogle, SiMysql, SiJavascript } from 'react-icons/si';
 
 function Projects() {
-
     return(
-
         <div className="projectsWrapper">
 
-            <div className="row visualizer">
+            <div className={`row visualizer`}>
                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
                     <h4 className="leftElement leftTitle">Pathfinding Visualizer</h4>
                     <p className="leftElement">This project I created out of my curiosity and interest in pathfinding algotithms and dynamic programming. The visualizer allows to see real life implementation of pathfinding algorithms and the way they work in real time.</p>
@@ -63,7 +61,7 @@ function Projects() {
                 </div>
             </div>
 
-            <div className="row googleBooks">
+            <div className={`row googleBooks`}>
                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
                     <h4 className="leftElement leftTitle">Google Books</h4>
                     <p className="leftElement">With help of Google Books API this application allows user to interact with a large database of books to find, save, and delete from their favorites.</p>
