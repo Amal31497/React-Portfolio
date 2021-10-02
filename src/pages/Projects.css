@@ -1,47 +1,111 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+.projectsWrapper{
+    height:100%;
+    background-color: rgb(247,247,247);
 }
 
-.cont{
-    scroll-snap-type: y proximity;
-    overflow-y: scroll;
-    height:100vh;
+.leftTitle{
+    margin-top:7%;
+    margin-bottom:3%;
+    font-weight:700;
 }
 
-.project{
-    height:100vh;
+.leftElement{
+    margin-left:10%;
+    width:80%;
+}
+
+.visualizer{
+    height:30%;
+}
+
+.laptopOutline{
+    position:relative;
+    height:80%;
+    width:75%;
+    margin-left:10%;
+}
+
+.visualizerGif{
+    position: absolute;
+    width:43%;
+    height:46%;
+    right:30.8%;
+    top:9%;
+    border-radius:2%;
+    border:2px black solid;
+}
+
+.links{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.liveLinkOuterLayer{
+    width:30%;
+    height:5%;
+    background-color:transparent;
+    border:1px black solid;
+
     display:flex;
     justify-content: center;
-    align-items: center;
-    scroll-snap-align: end;
 }
 
-#one{
-    background: #2c3531 !important;
-    position: relative;
-}
-#two{
-    background: #116466 !important;
-    color: black;
-    position: relative;
-}
-#three{
-    background: #d9b08c !important;
-    position: relative;
+
+.liveLinkOuterLayer:hover{
+    animation-name: hoverButton;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    font-weight: 800;
 }
 
-#four{
-    background: #d1e8e2 !important;
-    position: relative;
+@keyframes hoverButton {
+    from{
+        background-color: transparent;
+        color:black;
+    } to {
+        background-color:black;
+        color:white;
+    }
 }
 
-.githubButtonSingle{
-    width:100% !important;
+.sourceCode{
+    width:30%;
+    height:5%;
+    background-color:transparent;
+    font-weight: 800;
+    display:flex;
+    justify-content: center;
 }
 
-.projectLink{
-    width:40% !important;
+.sourceCode:hover{
+    animation-name: hoverSourceCodeButton;
+    animation-fill-mode: forwards;
+    animation-duration: 0.3s;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+@keyframes hoverSourceCodeButton {
+    from{
+        transform:translateX(0px);
+    } to {
+        transform:translateX(8px);
+    }
+}
+
+
+.liveLinkLink{
+    color:black !important;
+    text-decoration: none !important;
+    font-weight:500 !important;
+}
+
+.liveLinkLink:hover{
+    color:white !important;
+}
+
+.sourceCodeLink{
+    color:black !important;
+    text-decoration: none !important;
 }
