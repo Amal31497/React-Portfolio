@@ -39,7 +39,7 @@
 
 .links{
     display:flex;
-    justify-content:space-around;
+    padding-left:10%;
 }
 
 .liveLinkOuterLayer{
@@ -80,6 +80,7 @@
     font-weight: 800;
     display:flex;
     justify-content: center;
+    margin-left:10px;
 }
 
 .sourceCode:hover{

@@ -20,7 +20,6 @@ import { SiMongodb, SiExpo, SiGoogle, SiMysql, SiJavascript } from 'react-icons/
 function Projects() {
     return(
         <div className="projectsWrapper">
-
             <div className={`row visualizer`}>
                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
                     <h4 className="leftElement leftTitle">Pathfinding Visualizer</h4>
