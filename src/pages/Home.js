@@ -62,7 +62,7 @@ function Home() {
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pl-0 mr-0 ml-0">
                     <h2>My Story</h2>
                     <p id="myStory">
-                        I am a full stack web developer with hands-on experience in React and ASP.NET. 
+                        I am a full stack web developer with hands-on experience in React, Node.js, and Java Spring Framework. 
                         I started my computer science journey during my BA Economics program at 
                         Indiana University in Bloomingtin by implementing regression analysis using a tool like Stata and fundamentals of Python.
                         College was also the time when I discovered web development - inbetween classes and my job at a coffee shop I used to dabble into 
@@ -74,8 +74,7 @@ function Home() {
                         through University of Washington and had an absolutely amazing time learning fundamental and advanced web development skills.
                         My instructor and team that I was part of were the core drivers of my interactive learning. 
                         Every small problem I solved felt like a huge accomplishment to me and I continue carry on this attitude towards my work.
-                        Right now I am developing several projects with ASP.NET and React to solidify my knowldege and stay in touch with the industry trends. 
-                        My goal is to find a role that allows me to marry my passion for coding with scalable projects in React, ASP.NET, Node.js and many others.
+                        I am currently attending a training program in Java and React Native through Cognizant. 
                     </p>
                 </div>
             </Row>
