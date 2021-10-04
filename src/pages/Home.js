@@ -60,7 +60,7 @@ function Home() {
                     <Button variant="outline-secondary" href='/contact' style={{ width:"77.5%",marginBottom:"20px", display:"block", marginLeft:"auto", marginRight:"auto"}}>Contact Me ►</Button>
                 </div>
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pl-0 mr-0 ml-0">
-                    <h2>My Story</h2>
+                    <h2>About me</h2>
                     <p id="myStory">
                         I am a full stack web developer with hands-on experience in React, Node.js, and Java Spring Framework. 
                         I started my computer science journey during my BA Economics program at 
