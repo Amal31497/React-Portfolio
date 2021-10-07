@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, Row, Button } from 'react-bootstrap';
 import pic from '../assets/portrait.png';
-import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
-import { SiJavascript, SiMysql, SiMongodb, SiHtml5, SiCss3, SiCsharp } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaBootstrap, FaJava } from 'react-icons/fa';
+import { SiJavascript, SiMysql, SiMongodb, SiHtml5, SiCss3, SiSpring } from 'react-icons/si';
 import { DiDotnet } from 'react-icons/di';
 import { VscJson } from 'react-icons/vsc';
 import { BsKanban } from 'react-icons/bs';
@@ -27,13 +27,13 @@ function Home() {
                             <button type="button" class="btn btn-outline-info btn-sm skillButton">Bootstrap : <FaBootstrap size={18} /></button> &nbsp; <h3>,</h3>
                         </div>
                         <div className="col-3 skill mb-1">
-                            <button type="button" class="btn btn-outline-info btn-sm skillButton">C# : <SiCsharp size={18} /></button> &nbsp; <h3>,</h3>
+                            <button type="button" class="btn btn-outline-danger btn-sm skillButton">Java : <FaJava size={18} /></button> &nbsp; <h3>,</h3>
                         </div>
                         <div className="col-3 skill mb-1">
                             <button type="button" class="btn btn-outline-dark btn-sm skillButton">ES6+ : <SiJavascript size={18} /></button> &nbsp; <h3>,</h3>
                         </div>
                         <div className="col-3 skill mb-1">
-                            <button type="button" class="btn btn-outline-info btn-sm skillButton">ASP.NET : <DiDotnet size={18} /></button> &nbsp; <h3>,</h3>
+                            <button type="button" class="btn btn-outline-success btn-sm skillButton">Spring Boot : <SiSpring size={18} /></button> &nbsp; <h3>,</h3>
                         </div>
                         <div className="col-3 skill mb-1">
                             <button type="button" class="btn btn-outline-primary btn-sm skillButton">MySql : <SiMysql size={18} /></button> &nbsp; <h3>,</h3>
