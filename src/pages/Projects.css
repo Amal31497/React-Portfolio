@@ -103,6 +103,9 @@
     color:black !important;
     text-decoration: none !important;
     font-weight:500 !important;
+    display:flex;
+    justify-content: center;
+    width:100%;
 }
 
 .liveLinkLink:hover{
