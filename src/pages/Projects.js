@@ -10,6 +10,7 @@ import MMG from '../assets/myMiniGallery.png'
 import LapropOutline from "../assets/laptop-ountline.png";
 import VizualizerGif from "../assets/vizualizerGif.gif";
 import MyMiniGalleryGif from "../assets/myMiniGalleryGif.gif";
+import CMSGif from "../assets/CMSgif.gif";
 
 import "./Projects.css"
 import { VscChevronUp } from "react-icons/vsc";
@@ -18,8 +19,33 @@ import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
 import { SiMongodb, SiExpo, SiGoogle, SiMysql, SiJavascript } from 'react-icons/si';
 
 function Projects() {
+    const [hoverLaptop, setHoverLaptop] = useState("");
+
+
     return(
         <div className="projectsWrapper">
+
+            <div className={`row visualizer`}>
+                <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
+                    <h4 className="leftElement leftTitle">Construction Management System</h4>
+                    <p className="leftElement">Platform built for enterprises that specialize in construction projects and resource management. Developed in 1 week with 3 other developers. Came up with microservice infrastructure and implemented integration and unit testing.</p>
+                    <p className="leftElement">Built with Java Spring Boot, React with implementation of Microservices</p>
+                    <div className="links">
+                        <div className="sourceCode">
+                            <a className="sourceCodeLink" href="https://github.com/CodingErik/constructionManagementSystem" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 right">
+                    <a className="wrapperLink" href="https://github.com/CodingErik/constructionManagementSystem" target="_blank">
+                        <img src={LapropOutline} className={`laptopOutline`} />
+                        <img src={CMSGif} className={`visualizerGif`} />
+                    </a>
+                </div>
+
+            </div>
+
             <div className={`row visualizer`}>
                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
                     <h4 className="leftElement leftTitle">Pathfinding Visualizer</h4>
@@ -35,8 +61,10 @@ function Projects() {
                     </div>
                 </div>
                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 right">
-                    <img src={LapropOutline} className="laptopOutline" />
-                    <img src={VizualizerGif} className="visualizerGif" />
+                    <a className="wrapperLink" href="https://pathfinding-visualizer-amal-j.herokuapp.com/" target="_blank">
+                        <img src={LapropOutline} className={`laptopOutline`} />
+                        <img src={VizualizerGif} className={`visualizerGif`} />
+                    </a>
                 </div>
             </div>
 
@@ -55,8 +83,10 @@ function Projects() {
                     </div>
                 </div>
                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 right">
-                    <img src={LapropOutline} className="laptopOutline" />
-                    <img src={MyMiniGalleryGif} className="visualizerGif" />
+                    <a className="wrapperLink" href="https://my-mini-gallery.herokuapp.com/" target="_blank">
+                        <img src={LapropOutline} className="laptopOutline" />
+                        <img src={MyMiniGalleryGif} className="visualizerGif" />
+                    </a>
                 </div>
             </div>
 
@@ -75,8 +105,10 @@ function Projects() {
                     </div>
                 </div>
                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 right">
-                    <img src={LapropOutline} className="laptopOutline" />
-                    <img src={GBS} className="visualizerGif" />
+                    <a className="wrapperLink" href="https://guarded-castle-60005.herokuapp.com/" target="_blank">
+                        <img src={LapropOutline} className="laptopOutline" />
+                        <img src={GBS} className="visualizerGif" />
+                    </a>
                 </div>
             </div>
 

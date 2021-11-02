@@ -26,6 +26,30 @@
     margin-top:5%;
 }
 
+.right:hover>a>img{
+    animation-name: liftLaptop;
+    animation-fill-mode: forwards;
+    animation-duration: 0.4s;
+    cursor:pointer;
+}
+
+
+@keyframes liftLaptop{
+    from{
+        transform:translateY(0px);
+    } to {
+        transform:translateY(-20px);
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 45px 20px -15px;
+    }
+}
+
+.wrapperLink{
+    width:80%;
+    height:auto;
+    padding:auto;
+    margin:auto;
+}
+
 .visualizerGif{
     position: absolute;
     width:43%;

@@ -64,7 +64,7 @@ function Home() {
                     <p id="myStory">
                         I am a full stack web developer with hands-on experience in React, Node.js, and Java Spring Framework. 
                         I started my computer science journey during my BA Economics program at 
-                        Indiana University in Bloomingtin by implementing regression analysis using a tool like Stata and fundamentals of Python.
+                        Indiana University in Bloomington by implementing regression analysis using a tool like Stata and fundamentals of Python.
                         College was also the time when I discovered web development - inbetween classes and my job at a coffee shop I used to dabble into 
                         making trivial web pages with just HTML, CSS and Javascript. After I graduated the university, I took some time to try different career paths.
                         Since fitness was the activity I was very much familiar with I took a route of a Personal Trainer. While training my clients I realized how much I revel in 
