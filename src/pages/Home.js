@@ -63,18 +63,18 @@ function Home() {
                     <h2>About me</h2>
                     <p id="myStory">
                         I am a full stack web developer with hands-on experience in React, Node.js, and Java Spring Framework. 
-                        I started my computer science journey during my BA Economics program at 
-                        Indiana University in Bloomington by implementing regression analysis using a tool like Stata and fundamentals of Python.
-                        College was also the time when I discovered web development - inbetween classes and my job at a coffee shop I used to dabble into 
-                        making trivial web pages with just HTML, CSS and Javascript. After I graduated the university, I took some time to try different career paths.
-                        Since fitness was the activity I was very much familiar with I took a route of a Personal Trainer. While training my clients I realized how much I revel in 
-                        solving problems for them. Every client was unique and had a distinct set of training constraints in a form of injuries or specific goals. 
-                        In the very beginning of 2020, when pandemia started I was forced to take a long break from training people and 
-                        I decided to dedicate this time to do what I have been really wanting to since those attempts in web development in college. I signed up for a Coding Bootcamp
-                        through University of Washington and had an absolutely amazing time learning fundamental and advanced web development skills.
-                        My instructor and team that I was part of were the core drivers of my interactive learning. 
-                        Every small problem I solved felt like a huge accomplishment to me and I continue carry on this attitude towards my work.
-                        I am currently attending a training program in Java and React Native through Cognizant. 
+                        My academic credentials include Bachelor of Arts in Economics from Indiana University in Bloomington, 
+                        Full Stack Web Development bootcamp through University of Washington and Java/React Native apprenticeship that
+                        I completed through Southern Methodist University sponsored by my current employer Cognizant. For 1.5 years 
+                        I have been working on back end applications as a developer for an Insurance Provider through Cognizant. 
+                        My day-to-day tasks include writing code, debugging, job monitoring, etc. In addition, I perform 
+                        quarterly releases for several internal and external applications. Most popular tools I use at my current job are
+                        IntelliJ, MyEclipse, LDAP, Oracle SQL Developer, Oracle WebLogic Server, Java, React, Angular and many more. 
+                        Most recently I worked on integrating a multifactor authentication for one of our external applications with over 1200 active users.
+                        I updated application's API and tested for all edge cases. The project was done on Azure Active Directory B2C platform and was 
+                        successfully released to the users. I am quite interested in back end development with Java and have done extensive production work with it.
+                        My goal is to work on an exciting product with a team of professionals from diverse academic backgrounds. I am a passionate learner and 
+                        a goal-oriented person. Please reach out to me if you have any questions.
                     </p>
                 </div>
             </Row>

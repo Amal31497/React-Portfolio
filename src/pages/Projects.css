@@ -29,7 +29,8 @@
 .right:hover>a>img{
     animation-name: liftLaptop;
     animation-fill-mode: forwards;
-    animation-duration: 0.4s;
+    animation-duration: 1s;
+    animation-timing-function:ease;
     cursor:pointer;
 }
 

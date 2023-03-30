@@ -1,30 +1,42 @@
-import React,{ useEffect, useState } from 'react';
-import { Card, Button } from 'react-bootstrap';
-import { Particles } from "react-particles-js"
-import MMGMA from '../assets/mobileAppGif.gif';
-import TB from '../assets/techBlog.png';
-import YNC from '../assets/phoneOutline.png';
-import GBS from '../assets/googleBooksGif.gif'
-import MMG from '../assets/myMiniGallery.png'
+import React, { useEffect, useState } from 'react';
 
 import LapropOutline from "../assets/laptop-ountline.png";
 import VizualizerGif from "../assets/vizualizerGif.gif";
-import MyMiniGalleryGif from "../assets/myMiniGalleryGif.gif";
+import VendingPortfolioGif from "../assets/vendingPorfolioGif.gif";
 import CMSGif from "../assets/CMSgif.gif";
 
 import "./Projects.css"
-import { VscChevronUp } from "react-icons/vsc";
-import { VscChevronDown } from "react-icons/vsc";
-import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
-import { SiMongodb, SiExpo, SiGoogle, SiMysql, SiJavascript } from 'react-icons/si';
 
 function Projects() {
     const [hoverLaptop, setHoverLaptop] = useState("");
 
 
-    return(
+    return (
         <div className="projectsWrapper">
-
+            <div className="row myMiniGallery">
+                <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
+                    <h4 className="leftElement leftTitle">Vending Service Portfolio</h4>
+                    <p className="leftElement">A portfolio website for a Vending Machine Business built for lead generation. 300+ visits per month on average</p>
+                    <p className="leftElement">Built with React, MySQL, AWS Elastic Beanstalk, CSS Animations, Java Spring Boot, Google Ads</p>
+                    <div className="links">
+                        <div className="liveLinkOuterLayer">
+                            <a className="liveLinkLink" href="https://www.snackstr.com/" target="_blank">Live Link</a>
+                        </div>
+                        <div className="sourceCode">
+                            <a className="sourceCodeLink" href="https://github.com/Amal31497/vending-portfolio-ui" target="_blank">UI</a>
+                        </div>
+                        <div className="sourceCode">
+                            <a className="sourceCodeLink" href="https://github.com/Amal31497/vending-portfolio" target="_blank">Backend</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 right">
+                    <a className="wrapperLink" href="https://www.snackstr.com/" target="_blank">
+                        <img src={LapropOutline} className="laptopOutline" />
+                        <img src={VendingPortfolioGif} className="visualizerGif" />
+                    </a>
+                </div>
+            </div>
             <div className={`row visualizer`}>
                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
                     <h4 className="leftElement leftTitle">Construction Management System</h4>
@@ -67,53 +79,7 @@ function Projects() {
                     </a>
                 </div>
             </div>
-
-            <div className="row myMiniGallery">
-                <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
-                    <h4 className="leftElement leftTitle">My Mini Gallery</h4>
-                    <p className="leftElement">Full Stack Web Application built for Artists to share art and professional experience in various disciplines like photography, digital art and many more!</p>
-                    <p className="leftElement">Built with React, MongoDB, Node.js, Express.js</p>
-                    <div className="links">
-                        <div className="liveLinkOuterLayer">
-                            <a className="liveLinkLink" href="https://my-mini-gallery.herokuapp.com/" target="_blank">Live Link</a>
-                        </div>
-                        <div className="sourceCode">
-                            <a className="sourceCodeLink" href="https://github.com/Amal31497/My-Mini-Gallery" target="_blank">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 right">
-                    <a className="wrapperLink" href="https://my-mini-gallery.herokuapp.com/" target="_blank">
-                        <img src={LapropOutline} className="laptopOutline" />
-                        <img src={MyMiniGalleryGif} className="visualizerGif" />
-                    </a>
-                </div>
-            </div>
-
-            <div className={`row googleBooks`}>
-                <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 left">
-                    <h4 className="leftElement leftTitle">Google Books</h4>
-                    <p className="leftElement">With help of Google Books API this application allows user to interact with a large database of books to find, save, and delete from their favorites.</p>
-                    <p className="leftElement">Built with React, MongoDB, Node.js, Express.js</p>
-                    <div className="links">
-                        <div className="liveLinkOuterLayer">
-                            <a className="liveLinkLink" href="https://guarded-castle-60005.herokuapp.com/" target="_blank">Live Link</a>
-                        </div>
-                        <div className="sourceCode">
-                            <a className="sourceCodeLink" href="https://github.com/Amal31497/Google-Books-Search" target="_blank">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 right">
-                    <a className="wrapperLink" href="https://guarded-castle-60005.herokuapp.com/" target="_blank">
-                        <img src={LapropOutline} className="laptopOutline" />
-                        <img src={GBS} className="visualizerGif" />
-                    </a>
-                </div>
-            </div>
-
         </div>
-
     )
 }
 
