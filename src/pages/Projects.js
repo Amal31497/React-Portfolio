@@ -73,7 +73,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 right">
-                    <a className="wrapperLink" href="https://pathfinding-visualizer-amal-j.herokuapp.com/" target="_blank">
+                    <a className="wrapperLink" href="https://master.d3v2sfn73mhrvz.amplifyapp.com/" target="_blank">
                         <img src={LapropOutline} className={`laptopOutline`} />
                         <img src={VizualizerGif} className={`visualizerGif`} />
                     </a>
