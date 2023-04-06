@@ -65,7 +65,7 @@ function Projects() {
                     <p className="leftElement">Built with React, Bootstrap, and CSS Animations(Keyframes)</p>
                     <div className="links">
                         <div className="liveLinkOuterLayer">
-                            <a className="liveLinkLink" href="https://pathfinding-visualizer-amal-j.herokuapp.com/" target="_blank">Live Link</a>
+                            <a className="liveLinkLink" href="https://master.d3v2sfn73mhrvz.amplifyapp.com/" target="_blank">Live Link</a>
                         </div>
                         <div className="sourceCode">
                             <a className="sourceCodeLink" href="https://github.com/Amal31497/pathfinding-visualizer" target="_blank">Source Code</a>
