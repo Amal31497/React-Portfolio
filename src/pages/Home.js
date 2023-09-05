@@ -3,7 +3,6 @@ import { Image, Row, Button } from 'react-bootstrap';
 import pic from '../assets/portrait.png';
 import { FaReact, FaNodeJs, FaBootstrap, FaJava } from 'react-icons/fa';
 import { SiJavascript, SiMysql, SiMongodb, SiHtml5, SiCss3, SiSpring } from 'react-icons/si';
-import { DiDotnet } from 'react-icons/di';
 import { VscJson } from 'react-icons/vsc';
 import { BsKanban } from 'react-icons/bs';
 
@@ -14,7 +13,7 @@ function Home() {
             <Row>
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pr-0 mr-0 ml-0">
                     <Image src={pic} className="portrait" alt="Portrait" />
-                    <h2 style={{display:"flex", justifyContent:"center"}}>Full Stack Web Developer</h2>
+                    <h2 style={{display:"flex", justifyContent:"center"}}>Software Engineer</h2>
                     <div className="row mb-3 mt-3" style={{position:"relative",display:"flex", justifyContent:"center"}}>
                         <div className="col-3 skill mb-1">
                             <h1 style={{marginLeft:"-27.3px"}}>{"{"}</h1>&nbsp;&nbsp;&nbsp;
@@ -62,19 +61,15 @@ function Home() {
                 <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pl-0 mr-0 ml-0">
                     <h2>About me</h2>
                     <p id="myStory">
-                        I am a full stack web developer with hands-on experience in React, Node.js, and Java Spring Framework. 
-                        My academic credentials include Bachelor of Arts in Economics from Indiana University in Bloomington, 
-                        Full Stack Web Development bootcamp through University of Washington and Java/React Native apprenticeship that
-                        I completed through Southern Methodist University sponsored by my current employer Cognizant. For 1.5 years 
-                        I have been working on back end applications as a developer for an Insurance Provider through Cognizant. 
-                        My day-to-day tasks include writing code, debugging, job monitoring, etc. In addition, I perform 
-                        quarterly releases for several internal and external applications. Most popular tools I use at my current job are
-                        IntelliJ, MyEclipse, LDAP, Oracle SQL Developer, Oracle WebLogic Server, Java, React, Angular and many more. 
-                        Most recently I worked on integrating a multifactor authentication for one of our external applications with over 1200 active users.
-                        I updated application's API and tested for all edge cases. The project was done on Azure Active Directory B2C platform and was 
-                        successfully released to the users. I am quite interested in back end development with Java and have done extensive production work with it.
-                        My goal is to work on an exciting product with a team of professionals from diverse academic backgrounds. I am a passionate learner and 
-                        a goal-oriented person. Please reach out to me if you have any questions.
+                        I am a software engineer with 2 years of experience in back end software development in Java (8,11), React, AWS an many other tools.
+                        Currently I am working with a variety of company internal and external applications with steadily increasing number of users.
+                        My daily tasks include reading/writing code in Java, debugging, monitoring Linux and Windows servers for issues related to application deployments.
+                        So far, the biggest achievement for me was integrating a Multifactor Authentication for one of the external applications with over 1200 users.
+                        I successfully updated the exising REST api structure and ensured quality by developing a full test suite for this feature.
+                        The tools I used were, Azure Microsoft Graph API, Active Directory, LDAP and Kerberos. Ultimately, the feature was approved and deployed to production.
+                        Outside of my career, I am also pursuing a Master of Science in Computer Science from Georgia Institute of Technology. My specialization is Computing Systems 
+                        and I am focusing my studies on learning about Distributed Systems and Software Architecture. My academic projects are concentrated on Concurrency, 
+                        Software Optimization and I mostly use C/C++ and Java. Outside of work and school, I enjoy hiking, fishing, and playing with my dog.
                     </p>
                 </div>
             </Row>
